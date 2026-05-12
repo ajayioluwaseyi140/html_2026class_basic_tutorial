@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>football Form</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <div class="container">
+
+          <h1>Kindly fill in the form below</h1>
+          
+      
+          <form name="Contact" autocomplete="off" class="form">
+            <div>
+  
+              <label for="fullname"> Full Name</label>
+              <br> <input type="text" name="fullname" placeholder="Enter your fullname" id="fullname" required class="input">
+            </div>
+            <br>
+  
+            <div>
+  
+              <label for="email"> Email</label> <input type="email" name="email" placeholder="Enter your email" id="email" required class="input">
+            </div>
+            <br>
+  
+            <div>
+  
+              <label for="password">Password</label> <input type="password" name="password" placeholder="Enter your password" id="password" required class="input">
+            </div>
+            <br>
+  
+            <div>
+  
+              <label for="age">Age</label>
+              <br> <input type="number" name="age" id="age" min="18" max="99" required class="age">
+            </div>
+           <br>
+  
+           <div>
+            
+             <input type="checkbox" name="newsletter" value="1" id="newsletter" checked class="checkbox"> Subscribe to Newsletter
+           </div>
+           <br>
+  
+           <div>
+  
+             <input type="radio" name="gender" id="gender" value="male" checked class="radio"> Male
+             <input type="radio" name="gender" id="gender" value="female" class="radio">Female
+           </div>
+           <br>
+  
+           <div>
+            <label for="message">Comment</label>
+            <br>
+             <textarea name="message" id="message" placeholder="Send us a message" class="textarea"></textarea>
+           </div>
+           <br>
+           
+           <div>
+  
+             <h3>Select a Country for your next vacation</h3>
+             <select name="country" id="country" class="select">
+              <option value="nigeria">Nigeria</option>
+              <option value="ghana">Ghana</option>
+              <option value="togo">Togo</option>
+              <option value="niger">Niger</option>
+              <option value="benin">Benin</option></select>
+           </div>
+           <br>
+  
+           <div>
+  
+             <label for="resume">Upload Your Resume</label>
+             <input type="file" name="resume" id="resume" class="file">
+           </div>
+           <br>
+  
+           <div>
+  
+             <label for="number">Number</label>
+             <br> <input type="number" name="number" id="number" placeholder="input your mobile number" class="number">
+           </div>
+           <br>
+  
+           <div>
+  
+             <button type="submit" class="submit">Submit</button>
+           </div>
+  
+          </form>
+        </div>
+</body>
+</html>

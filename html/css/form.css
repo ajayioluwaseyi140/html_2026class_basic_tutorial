@@ -1,0 +1,137 @@
+body{
+    padding: 20px;
+    background-color: rgb(173, 194, 194);
+}
+.container{
+    border: 2px solid rgb(177, 176, 176);
+    margin: 0 auto;
+    padding: 20px;
+    height: 950px; width: 550px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 15px;
+
+}
+.container{
+    background: linear-gradient(
+        to bottom,
+        rgb(226, 241, 248) 0%,
+        rgb(250, 238, 240) 50%,
+        /* rgb(249, 249, 142) 50%, */
+        rgb(225, 240, 225) 100%
+    );
+}
+h1{
+    text-align: center;
+}
+.form{
+    border: 2px solid rgb(177, 176, 176);
+    margin: 0 auto;
+    padding: 20px;
+    height: 800px; width: 460px;
+    background-color: rgb(245, 249, 248);
+    border-radius: 15px;
+}
+
+.input{
+    border: 0px solid rgb(214, 212, 212);
+    height: 30px; width: 464px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.input:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.age{
+    border: 0px solid rgb(214, 212, 212);
+    height: 25px; width: 50px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.age:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.checkbox{
+    box-shadow: 1px 1px 5px 1px rgb(88, 87, 87);
+}
+
+.radio{
+    box-shadow: 1px 1px 5px 1px rgb(88, 87, 87);
+}
+
+.textarea{
+    border: 0px solid rgb(214, 212, 212);
+    height: 50px; width: 250px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 5px;
+    padding-left: 10px; padding-top: 25px;
+    margin-top: 5px;
+}
+.textarea:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.select{
+    border: 0px solid rgb(214, 212, 212);
+    height: 30px; width: 300px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 5px;
+    padding-left: 10px; 
+}
+.select:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.file{
+    border: 0px solid rgb(214, 212, 212);
+    height: 25px; width: 464px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 4px;
+    padding-left: 10px; padding-top: 5px;
+    margin-top: 5px;
+}
+.file:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.number{
+    border: 0px solid rgb(214, 212, 212);
+    height: 25px; width: 170px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.number:hover{
+    background-color: rgb(244, 242, 242);
+}
+
+.submit{
+    border: 0px solid rgb(214, 212, 212);
+    height: 30px; width: 400px;
+    box-shadow: 0px 0px 2px 2px rgb(164, 163, 163);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 5px; margin-left: 30px;
+    background-color: rgb(159, 236, 159);
+}
+.submit:hover{
+    background-color: rgb(201, 247, 201);
+}
+.submit:active{
+    transform: translateY(7px);
+    box-shadow: 0px 1px 0px 0px rgb(158, 158, 158);
+}
+/* .submit{
+    background: linear-gradient(
+        to bottom,
+        lightgreen 0%,
+        yellow 50%,
+        lightblue 50%,
+        rgb(245, 197, 197) 100%
+    );
+} */

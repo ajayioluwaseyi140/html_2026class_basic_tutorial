@@ -1,0 +1,135 @@
+h3{
+    color: red; background-color: azure;
+}
+
+h1{
+    color: chartreuse; background-color: darkkhaki;
+}
+
+h2{
+    color: darkgreen; background-color: aqua;
+}
+
+h4{
+    color: darkblue; background-color: beige;
+}
+
+h5{
+    color: chartreuse; background-color: darkcyan;
+}
+
+h6{
+    color: fuchsia; background-color: honeydew;
+}
+
+/* p{
+    background-color: lightblue;
+} */
+
+/* #p1{
+    color: cornflowerblue; background-color: forestgreen;
+}
+
+.p1{
+    color: crimson; background-color: cyan;
+} */
+
+.container p{
+    color: darkblue; background-color: azure;
+}
+
+.container :first-child{
+    color: blueviolet; background-color: brown;
+}
+
+.container2 ul{background-color: chartreuse;} li:nth-child(odd){
+    color: black; background-color: aqua;
+}
+.container2 li:nth-child(even){
+    color: black; background-color: gold;
+}
+
+.link:hover{
+    color: chartreuse; background-color: darkgrey;
+}
+
+.box{
+    border: 4px solid red;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    height: 40vh; width: 30vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+    background-color: azure;
+}
+
+.innerbox{
+    border: 2px solid rgb(186, 239, 177);
+    height: 93%;
+    box-shadow: 1px 1px 1px 1px rgb(151, 150, 150);
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.blockelement{
+    display: block;
+    border: 2px solid crimson;
+    height: 40vh;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px 1px rgb(26, 25, 25);
+    background-color: rgb(237, 242, 242);
+
+}
+
+.inlineelement{
+    display: inline;
+    text-decoration: underline
+}
+
+.overflow{
+    border: 2px solid rgb(111, 180, 9);
+    overflow: scroll;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(246, 249, 249);
+    box-shadow: 1px 1px 3px 1px rgb(117, 4, 4);
+}
+
+.boxone{
+    border: 2px solid red;
+    height: 100px; width: 100px;
+}
+
+.boxtest{
+    border: 2px solid blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 200px; width: 200px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px 1px;
+}
+
+.boxabsolute{
+    border: 2px solid green;
+    height: 100px; width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 2px rgb(122, 121, 121);
+}
+
+.boxfixed{
+    border: 2px solid black;
+    position: fixed;
+    top: 450px;
+    left: 1100px;
+    background-color: yellow;
+    height: 70px;
+    width: 100px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px;
+}
