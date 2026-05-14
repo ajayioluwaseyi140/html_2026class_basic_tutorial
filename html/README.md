@@ -1,0 +1,1 @@
+This was the 2026 class tutorial for html basics.
